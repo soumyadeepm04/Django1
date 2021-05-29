@@ -5,5 +5,5 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse("Hello world") 
 
-def  soumyadeep(request)
+def soumyadeep(request):
     return HttpResponse("Hello Soumyadeep")
