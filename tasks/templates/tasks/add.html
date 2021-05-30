@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tasks</title>
+    </head>
+    <body>
+        <h1>Add Task</h1>
+        <form action = "{% url 'tasks:index' %}" method = "post">
+            <input type = "text" name = "task">
+            <input type = "submit">
+        </form>
+        <a href = "{% url 'tasks:index'%} ">See tasks</a>
+    </body>
+</html>
